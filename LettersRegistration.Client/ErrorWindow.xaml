@@ -1,0 +1,10 @@
+﻿<Window x:Class="LettersRegistration.Client.ErrorWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ошибка" Height="200" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock x:Name="ErrorTextBlock" TextWrapping="Wrap" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Content="ОК" Width="75" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10" Click="OKButton_Click"/>
+        <Image HorizontalAlignment="Left" Height="72" Margin="303,43,0,0" VerticalAlignment="Top" Width="72" Source="/errorIcon.png"/>
+    </Grid>
+</Window>

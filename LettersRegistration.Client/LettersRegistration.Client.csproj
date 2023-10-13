@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="errorIcon.png" />
+    <None Remove="successIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="errorIcon.png" />
+    <Resource Include="successIcon.png" />
+  </ItemGroup>
+
+</Project>
